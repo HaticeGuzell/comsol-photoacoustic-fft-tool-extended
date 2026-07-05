@@ -1,0 +1,18 @@
+{
+  "analyses": [
+    {
+      "csv_path": "examples/sample_comsol_pressure.csv",
+      "point_name": "Sample Point",
+      "param_column": "tau_p (ns)",
+      "param_name": "tau_p (ns)",
+      "output_dir": "./outputs"
+    }
+  ],
+  "defaults": {
+    "baseline_end_ns": 10.0,
+    "freq_max_mhz": 150.0,
+    "export_freq_max_mhz": 500.0,
+    "figure_dpi": 300,
+    "output_dir": "./outputs"
+  }
+}
